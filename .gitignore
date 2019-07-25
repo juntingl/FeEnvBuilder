@@ -4,6 +4,7 @@
 .cache-loader
 .eslintcache
 node_modules/
+logs/
 dist/
 docs_web/
 npm-debug.log
