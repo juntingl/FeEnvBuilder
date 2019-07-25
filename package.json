@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Junting <342766475@qq.com> (https://github.com/twitchbody)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-merge": "^4.2.1"
+  }
 }
