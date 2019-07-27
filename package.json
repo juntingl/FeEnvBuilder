@@ -4,23 +4,26 @@
   "description": "前端工程项目构建包",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "eslint": "eslint ./lib --fix"
   },
   "author": "Junting <342766475@qq.com> (https://github.com/twitchbody)",
   "license": "ISC",
   "devDependencies": {
+    "assert": "^2.0.0",
     "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "glob-all": "^3.1.0",
+    "mocha": "^6.2.0",
+    "rimraf": "^2.6.3"
   },
   "dependencies": {
     "autoprefixer": "^9.6.1",
     "clean-webpack-plugin": "^3.0.0",
     "cssnano": "^4.1.10",
     "friendly-errors-webpack-plugin": "^1.7.0",
-    "glob": "^7.1.4",
     "html-webpack-externals-plugin": "^3.8.0",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",

@@ -15,6 +15,10 @@ npm install
 
 ```sh
 npm run test
+
+# 单独进行冒烟测试
+node test/smoke/ind
+ex.js
 ```
 
 ## Author
