@@ -3,16 +3,14 @@
  * @Author: Junting.liu
  * @Date: 2019-07-27 11:38:28
  * @Last Modified by: Junting.liu
- * @Last Modified time: 2019-07-30 15:55:16
+ * @Last Modified time: 2019-07-30 16:32:05
  */
-const path = require('path');
 const assert = require('assert');
 
 describe('webpack.base.js 文件测试', () => {
+  // eslint-disable-next-line global-require
   const baseConfig = require('../../lib/webpack.base.js');
 
-  console.log(baseConfig);
-  console.log(baseConfig.entry);
   it('entry', () => {
     // 判断 entry index 的值
     assert.equal(baseConfig.entry.index.indexOf('/test/smoke/template/src/index/index.js') > -1, true);
