@@ -3,7 +3,7 @@
  * @Author: Junting.liu
  * @Date: 2019-07-27 11:38:28
  * @Last Modified by: Junting.liu
- * @Last Modified time: 2019-07-29 21:20:21
+ * @Last Modified time: 2019-07-30 15:39:30
  */
 const path = require('path');
 const assert = require('assert');
@@ -13,7 +13,7 @@ describe('webpack.base.js 文件测试', () => {
 
   it('entry', () => {
     // 判断 entry index 的值
-    assert.equal(baseConfig.entry.index, path.join(__dirname, '../smoke/template/src/index/', 'index.js'));
-    assert.equal(baseConfig.entry.search, path.join(__dirname, '../smoke/template/src/search/', 'index.js'));
+    assert.equal(baseConfig.entry.index.indexOf('/test/smoke/template/src/index/index.js') > -1, true);
+    assert.equal(baseConfig.entry.search.indexOf('/test/smoke/template/src/search/index.js') > -1, true);
   });
 });
