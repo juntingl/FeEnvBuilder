@@ -7,7 +7,7 @@
     "test": "istanbul cover mocha",
     "eslint": "eslint ./lib --fix"
   },
-  "author": "Junting <342766475@qq.com> (https://github.com/twitchbody)",
+  "author": "Junting <342766475@qq.com> (https://github.com/JuntingLiu)",
   "license": "ISC",
   "devDependencies": {
     "assert": "^2.0.0",
