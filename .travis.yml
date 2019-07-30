@@ -13,7 +13,6 @@ install:
   - npm install -D # 安装构建器依赖
   - cd ./test/smoke/template
   - npm install -D # 安装模板项目依赖
-  - cd ../../../
 
-scripts:
+script:
   - npm test

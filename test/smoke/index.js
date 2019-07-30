@@ -3,7 +3,7 @@
  * @Author: Junting.liu
  * @Date: 2019-07-27 10:38:00
  * @Last Modified by: Junting.liu
- * @Last Modified time: 2019-07-27 10:56:32
+ * @Last Modified time: 2019-07-30 16:10:40
  */
 
 /* eslint-disable */
@@ -13,7 +13,7 @@ const rimraf = require('rimraf');
 const Mocha = require('mocha');
 
 const mocha = new Mocha({
-  timeout: 10000
+  timeout: '10000ms'
 });
 
 // 需要进入到执行构建项目目录里
