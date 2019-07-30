@@ -4,7 +4,7 @@
   "description": "前端工程项目构建包",
   "main": "index.js",
   "scripts": {
-    "test": "istanbul cover mocha",
+    "test": "mocha",
     "eslint": "eslint ./lib --fix"
   },
   "author": "Junting <342766475@qq.com> (https://github.com/twitchbody)",
