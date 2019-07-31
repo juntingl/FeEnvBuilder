@@ -3,7 +3,7 @@
  * @Author: Junting.liu
  * @Date: 2019-07-27 10:38:00
  * @Last Modified by: Junting.liu
- * @Last Modified time: 2019-07-30 16:10:40
+ * @Last Modified time: 2019-07-31 21:42:31
  */
 
 /* eslint-disable */
@@ -35,7 +35,7 @@ rimraf('./dist', () => {
       colors: true,
       modules: false, // 不显示
       children: false,
-      chunkModules: false
+      // chunkModules: false
     }));
 
     console.log('\n' + 'Webpack build success, begin mocha test...');
